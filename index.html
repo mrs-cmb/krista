@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en" data-type="service" data-radius="soft" data-buttons="arrow" data-motion>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Christine Ballisty</title>
+<meta name="description" content="Christine Ballisty: using the humanities to bridge people, technology, and execution in organizations.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Christine Ballisty">
+<meta property="og:description" content="Using the humanities to bridge people, technology, and execution in organizations.">
+<meta property="og:image" content="share.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#edccbe">
+<link rel="canonical" href="https://christine.ballisty.com/">
+<meta name="site-kind" content="other">
+<meta name="page-type" content="service">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400..700&family=Libre+Franklin:wght@400..600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/system.css">
+<link rel="stylesheet" href="assets/ui/cards.css">
+<link rel="stylesheet" href="assets/motion/motion.css">
+<link rel="stylesheet" href="assets/layout/layout.css">
+<style>
+:root {
+  --p-bg: #edccbe; --p-surface: #e8c2b2; --p-ink: #351a2b; --p-muted: #6c4857;
+  --p-accent: #351a2b; --p-accent-ink: #edccbe; --p-action: #351a2b; --p-action-ink: #edccbe;
+  --p-inv-bg: #351a2b; --p-inv-surface: #402534; --p-inv-ink: #edccbe; --p-inv-muted: #b2938f;
+  --p-inv-accent: #edccbe; --p-inv-accent-ink: #351a2b; --p-inv-action: #edccbe; --p-inv-action-ink: #351a2b;
+  --font-display: "Source Serif 4", Georgia, serif;
+  --font-text: "Libre Franklin", system-ui, sans-serif;
+  --display-weight: 400;
+  --display-tracking: -0.02em;
+  --display-tracking-xl: -0.026em;
+}
+/* one-screen page: the research line and the small links under the buttons */
+/* no top bar: the page starts at the hero */
+:root { --nav: 0px; }
+.hero__research { margin-top: var(--s-7); max-width: none; font-size: 18px; line-height: 1.65; }
+.hero__research .t-label { display: block; margin-bottom: var(--s-3); color: var(--p-muted); }
+.hero__links { display: flex; flex-wrap: wrap; gap: var(--s-5); margin-top: var(--s-6); font-size: var(--t-small); }
+.hero__links a { color: var(--p-ink); }
+/* desktop: the words centred beside the photo */
+@media (min-width: 1024px) { .hero--split .hero__text { align-self: center; } }
+/* phone: the four links as a tidy 2x2 grid */
+@media (max-width: 639px) { .hero__links { display: grid; grid-template-columns: 1fr 1fr; gap: var(--s-2) var(--s-5); } .hero__links a { justify-self: start; } }
+/* tablet and phone: no headshot, the words alone */
+@media (max-width: 1023px) {
+  .hero--split .hero__media { display: none !important; }
+}
+</style>
+<script>document.documentElement.classList.add('m-enter');setTimeout(()=>document.documentElement.classList.add('m-enter-done'),700)</script>
+</head>
+<body>
+<main id="top">
+  <section class="hero hero--split" data-enter aria-labelledby="hero-h">
+    <div class="wrap"><div class="hero-text grid hero__grid">
+      <div class="hero__text span-5">
+        <h1 id="hero-h">Christine Ballisty</h1>
+        <p class="hero__lead">Using the humanities to bridge people, technology, and execution in organizations.</p>
+        <p class="hero__research"><span class="t-label">Research interest</span>How everyday work decides whose judgment gets trusted, and what organizations lose when the answer depends on who&rsquo;s talking.</p>
+        <div class="btn-row"><a class="btn btn--primary" href="mailto:christine@ballisty.com">Email Christine<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path class="m-arrow__stem" d="M1 6h8"/><path class="m-arrow__head" d="M4.5 2.5 8 6l-3.5 3.5"/></svg></a></div>
+        <p class="hero__links"><!-- placeholders: swap "#" for cv.pdf (academic) and resume.pdf (work) once the files exist --><a class="link" href="#">CV</a><a class="link" href="#">Resume</a><a class="link" href="https://www.linkedin.com/in/christineballisty">LinkedIn</a><a class="link" href="https://itskristamarie.substack.com">Substack</a></p>
+      </div>
+      <div class="hero__media span-6 start-7">
+        <img src="assets/img/headshot.webp" alt="Christine Ballisty in sunglasses under pink bougainvillea" style="--ly-pos: 50% 40%" fetchpriority="high" data-source="client" data-subject="headshot">
+      </div>
+    </div></div>
+  </section>
+</main>
+
+<script type="module" src="assets/system.js"></script>
+<script type="module" src="assets/motion/motion.js"></script>
+<script type="module" src="assets/layout/layout.js"></script>
+
+<!-- Statcounter code for Project bluejay
+https://christine.ballisty.com on Carrd -->
+<script type="text/javascript">
+var sc_project=10468523;
+var sc_invisible=1;
+var sc_security="e17cad66";
+var sc_remove_link=1;
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><img class="statcounter"
+src="https://c.statcounter.com/10468523/0/e17cad66/1/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></div></noscript>
+<!-- End of Statcounter Code -->
+</body>
+</html>
